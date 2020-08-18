@@ -86,6 +86,12 @@ function moveDownMapDetails(){
   });
 
     $(".infoBtn").click(function(){
+    if(this.id=="Yasser"){
+        $("#Name").html("Yasser");
+        $("#star4").removeClass("fa fa-star-half-full");
+        $("#star4").addClass("fa fa-star checked");
+        $("#Date").html("20/08/2018");
+    }
     if(this.id=="Ahmed"){
         $("#Name").html("Ahmed");
         $("#star4").removeClass("fa fa-star-half-full");
